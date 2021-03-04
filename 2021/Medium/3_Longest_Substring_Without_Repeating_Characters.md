@@ -1,3 +1,6 @@
+**c++**
+
+
 ```c++
 class Solution {
 public:
@@ -28,4 +31,25 @@ public:
         return result;
     }
 };
+```
+
+-----  
+
+**python**
+
+```python
+class Solution:
+    def lengthOfLongestSubstring(self, s: str) -> int:
+        umap = {}
+        maxlen = 0
+        left = 0 
+        
+        for right in range (0,len(s)):
+            if umap.get(s[right]) != None:
+                left = max(left,umap.get(s[right]) + 1)
+                    
+            umap[s[right]] =right
+            maxlen = max(maxlen,right-left+1)
+        return maxlen
+     
 ```
