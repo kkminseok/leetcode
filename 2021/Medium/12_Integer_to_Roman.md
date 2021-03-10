@@ -1,15 +1,10 @@
+**c++**
+
+```c++
 class Solution {
 public:
     string intToRoman(int num) {
         string temp ="";
-        unordered_map<char,int> map;
-        map['I']=1;
-        map['V']=5;
-        map['X']=10;
-        map['L']=50;
-        map['C']=100;
-        map['D']=500;
-        map['M']=1000;
         while(num!=0)
         {
             if(num>=1000)
@@ -84,3 +79,4 @@ public:
         return temp;
     }
 };
+```
