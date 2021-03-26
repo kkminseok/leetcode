@@ -11,6 +11,11 @@ leetcode
 
 3월부터의 목표 : March challenge Clear, 하루 3문제씩 총 140문제 풀기
 
-빡센 문제 : 146(Medium) - LRU cache
+3.24 목표달성 148문제
+
+![](/march.JPG)  
+
+4월의 목표 : 230문제
+
 
 
