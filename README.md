@@ -37,14 +37,16 @@ leetcode
 ## **5월 목표 : 300문제**
 
 
-**복습 해야할 것**
+**복습 해야할 것(python으로 다시 풀 것)**
 
 
 출처 : <https://www.teamblind.com/post/New-Year-Gift---Curated-List-of-Top-75-LeetCode-Questions-to-Save-Your-Time-OaM1orEU>
 
 Array
 
-- Two Sum - https://leetcode.com/problems/two-sum/
+~~- Two Sum - https://leetcode.com/problems/two-sum/ 5.12~~
+
+
 - Best Time to Buy and Sell Stock - https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
 - Contains Duplicate - https://leetcode.com/problems/contains-duplicate/
 - Product of Array Except Self - https://leetcode.com/problems/product-of-array-except-self/
