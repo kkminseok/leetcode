@@ -35,6 +35,6 @@ class Solution:
         res = []
         queens(n,-1,col,res)
         return res        
-
+ㅛㅛ휴
         
 ```
