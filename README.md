@@ -68,7 +68,7 @@ Array
 ~~- Search in Rotated Sorted Array - https://leetcode.com/problems/search-in-rotated-sorted-array/ 5.25~~
 
 
-- 3Sum - https://leetcode.com/problems/3sum/
+~~- 3Sum - https://leetcode.com/problems/3sum/ 6.01 ★~~
 - Container With Most Water - https://leetcode.com/problems/container-with-most-water/
 
 ---
