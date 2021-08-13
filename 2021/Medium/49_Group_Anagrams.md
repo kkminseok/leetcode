@@ -33,3 +33,24 @@ public:
     }
 };
 ```
+
+**python**
+
+```python
+class Solution:
+    def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
+        dic = {}
+        for i in range(len(strs)):
+            word = list(strs[i])
+            word.sort()
+            word = ''.join(word)
+            if word not in dic : 
+                dic[word] = deque()
+                dic[word].append(strs[i])
+            else : 
+                dic[word].append(strs[i])
+        res = []
+        for i in dic:
+            res.append(dic[i])
+        return res
+```

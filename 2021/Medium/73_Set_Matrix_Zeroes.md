@@ -47,3 +47,36 @@ public:
     }
 };
 ```
+
+
+**python**
+
+
+```python
+class Solution:
+    def setZeroes(self, matrix: List[List[int]]) -> None:
+        """
+        Do not return anything, modify matrix in-place instead.
+        """
+        row = len(matrix)
+        col = len(matrix[0])
+        rowcheck = [False] * row
+        colcheck = [False] * col
+        dq =deque()
+        for i in range(row):
+            for j in range(col) : 
+                if matrix[i][j] == 0 : 
+                    dq.append((i,j))
+        while dq : 
+            x,y = dq.popleft()
+            if rowcheck[x] != True : 
+                matrix[x]= [0] * col
+                print(matrix)
+                rowcheck[x] = True
+            if colcheck[y] != True:
+                for k in range(row) : 
+                    matrix[k][y] = 0
+                colcheck[y] = True
+                    
+                
+```
