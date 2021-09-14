@@ -1,4 +1,4 @@
-**c++**
+# c++
 
 ```c++
 class Solution {
@@ -19,7 +19,7 @@ public:
 
 -----  
 
-**python**
+## python
 
 ```python
 class Solution:
